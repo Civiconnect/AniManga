@@ -1,6 +1,6 @@
 /* Splash/Landing Page Styling */
 .landing {
-    background-image: url("/images/wind_rises_splash.jpg");
+    background-image: url("/AniManga/images/wind_rises_splash.jpg");
     background-size: cover;
     height: 897px;
     display: flex;
