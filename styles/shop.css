@@ -1,0 +1,58 @@
+/* Formatting Product Cards */
+.shop_card {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 366px;
+    background-color: beige;
+}
+
+.card_image {
+    display: flex;
+    border-bottom: 1px solid black;
+    max-height: 300px;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.card_image img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.product_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 7px 15px 7px;
+}
+
+/* Formatting Card Layouts */
+.product_layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 20px auto auto auto;
+    justify-items: center;
+    align-items: center;
+    width: 930px;
+}
+
+/* Other Formatting */
+#shop_head {
+    margin-left: 495px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#contact_header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact_us {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    width: 125px;
+    margin: 5px auto auto auto;
+}

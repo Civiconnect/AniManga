@@ -1,0 +1,20 @@
+[
+    {
+        "source": "Studio Ghibli",
+        "item": "Totoro Plush Toy",
+        "price": "20",
+        "image": "/images/products/totoro_plush.png"
+    },
+    {
+        "source": "Dragon Ball Z",
+        "item": "Goku Action Figure",
+        "price": "25",
+        "image": "/images/products/goku_figure.png"
+    },
+    {
+        "source": "Naruto: Shippuden",
+        "item": "Naruto Figurine",
+        "price": "35",
+        "image": "/images/products/naruto_figure.png"
+    }
+]

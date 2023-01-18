@@ -1,0 +1,80 @@
+/* Splash/Landing Page Styling */
+.landing {
+    background-image: url("/images/wind_rises_splash.jpg");
+    background-size: cover;
+    height: 897px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#landing_text {
+    padding: 20px 20px 20px 0px;
+    border-radius: 20px;
+    text-align: start;
+    font-size: 50px;
+    margin-left: 250px;
+}
+
+#shop_now {
+    background-color: #5eb1bf;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: black;
+}
+
+/* News Section Styling */
+.news {
+    display: flex;
+    width: 80%;
+    margin: 10px auto auto auto;
+    justify-content: space-between;
+}
+
+.news_link {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5eb1bf;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 5px 5px 5px;
+    width: 700px;
+    height: auto;
+}
+
+.news_link img {
+    width: 100px;
+    height: auto;
+}
+
+.news_link a {
+    width: auto;
+    height: auto;
+}
+
+#jjk {
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+}
+
+#aot {
+    width: 150px;
+    height: auto;
+}
+
+.news_link p {
+    width: 500px;
+}
+
+.anime_news {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.manga_news {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
